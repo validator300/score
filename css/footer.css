@@ -1,0 +1,113 @@
+#footer{
+  width: auto;
+  margin:10px;
+  border-radius: 10px;
+  background: #202223;
+  text-align: center;
+  padding:5px;
+  height: 140px;
+  bottom: 0;
+}
+#footer a{
+  color:#B6DAFF;
+  margin-left:15px;
+  font-size: 14px;
+}
+#footer nav a:hover{
+  color:black;
+  margin-left:10px;
+  background: #B6DAFF;
+  border-radius: 10px; 
+  border: 2px solid black;
+}
+#footer p{  
+   float: left;
+}
+.d3d {
+            color: white;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+
+        }
+         .container {
+            width: 53px;
+            perspective: 1000px;
+        }
+
+        .cube {
+            margin: auto;
+            position: relative;
+            width: 50px;
+            height: 50px;
+            transform-style: preserve-3d;
+            transition: transform 2s ease;
+        }
+
+        .cube:hover {
+            transform: rotateX(180deg) rotateY(720deg);
+        }
+
+        .side {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .side.back {
+            transform: translateZ(-25px) rotateX(180deg);
+        }
+        .side.left {
+            transform: translateX(-25px) rotateY(-90deg);
+        }
+        .side.right {
+            transform: translateX(25px) rotateY(90deg);
+        }
+
+        .side.front {
+            transform: translateZ(25px);
+        }
+        .side.top {
+            transform: translateY(-25px) rotateX(90deg);
+        }
+        .side.bottom {
+            transform:translateY(25px) rotateX(90deg);
+        }
+
+        .side .icon {
+            margin:17%;
+            vertical-align: middle;
+            font-size: 32px;
+        }
+
+        .side.grey {
+            color: #777;
+            background-color: white;
+        }
+
+        .side.youtube{
+            color: white;
+            background-color: #ff0000;
+        }
+
+        .side.instagram{
+            color:white;
+            background-color:#c32aa3;
+        }
+        .side.facebook{
+            color:white;
+            background-color:#3C5A99;
+        }
+        .side.google{
+            color:#DB4437;
+            background-color:white;
+        }
+        .side.twitter{
+            color:white;
+            background-color:#00acee;
+        }

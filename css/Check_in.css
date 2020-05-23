@@ -1,0 +1,107 @@
+body{
+	background-image: url(../imagen/fon.png);
+}
+a{
+	color:#000;
+}
+a:hover{
+	text-decoration: none;
+}
+.container{
+	width: 450px;
+	background-color: #DCDCDC;
+	margin: 80px auto 0 auto;
+	text-align: center;
+	box-shadow: 0 -5px 0 black;
+	border-radius: 10px 10px 10px 10px;
+}
+.container img{
+	width: 100px;
+	height: 100px;
+	margin: -68px 0 38px 0;
+	border:5px solid #DCDCDC;
+	border-radius: 50%;
+	box-shadow: 0 -5px 0 black;
+}
+input[type="text" ]  {
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+	margin-bottom: 25px;
+	border-radius: 4px;
+	padding-left: 40px;
+}
+input[type="password" ]  {
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+	margin-bottom: 25px;
+	border-radius: 4px;
+	padding-left: 40px;
+}
+.dws-submit{
+	padding: 10px 30px;
+	margin:5px 0 20px 0;
+	font-size: 15px;
+	color: black;
+	background-color: #696969;
+	border:none;
+	border-bottom: 4px solid black;
+	cursor: pointer;
+}
+.dws-submit:hover{
+	transition:  0.5s;
+	background: #C0C0C0;
+	color:#000000;
+	border-bottom: 4px solid #696969;
+}
+.dws-input:before{
+ font-family: "FontAwesome";
+ content: "\f023";
+ position: absolute;
+ font-size: 30px;
+ padding: 10px 0 0 7px;
+ color: #000000;
+}
+.dws-input:nth-child(2)::before{
+content: "\f007";
+}   
+.dws-input:hover::before{
+    color: #696969;
+    transition:  0.3s;
+}    
+.dws-input input:hover{
+ box-shadow: 3px 3px 6px 3px rgba(138,139,139,138);
+}   
+.social i {
+ color: black;
+ font-size: 20px;
+ width: 20px;
+ padding: 10px;
+ padding-top: 25px;
+}    
+.phone_restore{
+	padding-top: 25px;
+}
+.phone_restore:before{
+ font-family: "FontAwesome";
+ content: "\f10b";
+ position: absolute;
+ font-size: 40px;
+ padding: 9px 13px;
+ color: #000000;
+}
+.phone_restore:hover::before{
+    color: #696969;
+    transition:  0.3s;
+}    
+.phone_restore input:hover{
+ box-shadow: 3px 3px 6px 3px rgba(138,139,139,138);
+}   
+@media screen and (max-width: 768px){
+.container{
+	width: auto;
+
+}
+}
+	

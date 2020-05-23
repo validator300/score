@@ -1,0 +1,61 @@
+{
+"1":{
+	"name": "Huawei Y5" ,
+	"cost": 2000 ,
+	"description":"Стильний дизаїн",
+	"order": 12,
+	"img": "smartfo.png",
+	"a":"Huawei Y5.html"
+},
+"2":{
+	"name": "Iphone x" ,
+	"cost": 22000 ,
+	"description":"Новий екран",
+	"order": 5,
+	"img": "smartfo_4.png",
+	"a":"Iphone x.html"
+},
+"3":{
+	"name": "ПК" ,
+	"cost": 15000 ,
+	"order": 20,
+	"img": "pk.png",
+	"a":"PK.html"
+},
+"4":{
+	"name": "Asus" ,
+	"cost": 10000 ,
+	"order": 18,
+	"img": "notebook.png",
+	"a":"Asus.html"
+},
+"5":{
+	"name": "Прінтер" ,
+	"cost": 3000 ,
+	"order": 14,
+	"img": "print.png",
+	"a":"Print.html"
+},
+"6":{
+	"name": "Мікрохвильовка" ,
+	"cost": 1200 ,
+	"order": 9,
+	"img": "microvoln.png",
+	"a": "microvoln.html"
+},
+"7":{
+	"name": "Sony a6400" ,
+	"cost": 3000 ,
+	"order": 10,
+	"img": "photo.png",
+	"a":"Sony a6400.html"
+},
+"8":{
+	"name": "Sony" ,
+	"cost": 600 ,
+	"order": 10,
+	"img": "photo_1.png",
+	"a":"Sony.html"
+}
+}
+
